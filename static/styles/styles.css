@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --text-dark: #000000;
+  --text-blue: #10345E;
+  --border-shadow: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-dark);
+}
+
+.top-gradient {
+  width: 100%;
+  height: 7px;
+  position: fixed;
+  background: hsl(183deg, 98%, 55%);
+  background: linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
+  background: -webkit-linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
+  box-shadow: var(--border-shadow);
+}
+
+header {
+  width: 100%;
+  top: 10px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul li {
+  color: var(--text-blue);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 1.2rem;
+}
+header nav ul li #active-page-triangle {
+  position: absolute;
+  transform: translate(50%, -80%);
+}
+header nav ul li #active-page-dots {
+  position: absolute;
+  transform: translate(-5%, 105%);
+}
+header nav ul li #active-page-text {
+  color: #10345E;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--text-blue);
+}/*# sourceMappingURL=styles.css.map */
