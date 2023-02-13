@@ -133,14 +133,30 @@
               .announcements{
                 background-color: #E72318;
               }
+              .announcements:hover{
+                transition: 0.4s;
+                background-color: #a70000;
+              }
               .events{
                 background-color: #02a3c7;
               }
+              .events:hover{
+                transition: 0.4s;
+                background-color: #026e86;
+              }
               .about{
-                background-color: #02a525;
+                background-color: #00b627;
+              }
+              .about:hover{
+                transition: 0.4s;
+                background-color: #017e1c;
               }
               .join{
                 background-color: #7A64D3;
+              }
+              .join:hover{
+                transition: 0.4s;
+                background-color: #4f3d97;
               }
             }
           }

@@ -131,14 +131,30 @@ section.hero-sect .hero .hero-right .btn-row ul li #notice-new {
 section.hero-sect .hero .hero-right .btn-row ul li .announcements {
   background-color: #E72318;
 }
+section.hero-sect .hero .hero-right .btn-row ul li .announcements:hover {
+  transition: 0.4s;
+  background-color: #a70000;
+}
 section.hero-sect .hero .hero-right .btn-row ul li .events {
   background-color: #02a3c7;
 }
+section.hero-sect .hero .hero-right .btn-row ul li .events:hover {
+  transition: 0.4s;
+  background-color: #026e86;
+}
 section.hero-sect .hero .hero-right .btn-row ul li .about {
-  background-color: #02a525;
+  background-color: #00b627;
+}
+section.hero-sect .hero .hero-right .btn-row ul li .about:hover {
+  transition: 0.4s;
+  background-color: #017e1c;
 }
 section.hero-sect .hero .hero-right .btn-row ul li .join {
   background-color: #7A64D3;
+}
+section.hero-sect .hero .hero-right .btn-row ul li .join:hover {
+  transition: 0.4s;
+  background-color: #4f3d97;
 }
 
 .gridpaper {
