@@ -33,4 +33,22 @@
     color: #f1acac;
     transform: translate(0px 20px);
   }
+}
+
+#join-arrow {
+  animation-name: jumping_join;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes jumping_join {
+  0% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(-40px);
+  }
 }/*# sourceMappingURL=animations.css.map */
