@@ -38,9 +38,6 @@ header {
   margin: 0;
   position: absolute;
 }
-header nav {
-  z-index: 100;
-}
 header nav ul {
   display: flex;
   list-style: none;
@@ -72,10 +69,10 @@ header nav ul li a {
 
 .overlay-fog {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78.12%, #8BE3FF 100%);
 }
 
@@ -133,6 +130,7 @@ section.hero-sect .hero .hero-right .btn-row ul li .announcements {
 }
 section.hero-sect .hero .hero-right .btn-row ul li .announcements:hover {
   transition: 0.4s;
+  padding: 0.8rem 2.2rem;
   background-color: #a70000;
 }
 section.hero-sect .hero .hero-right .btn-row ul li .events {
@@ -140,6 +138,7 @@ section.hero-sect .hero .hero-right .btn-row ul li .events {
 }
 section.hero-sect .hero .hero-right .btn-row ul li .events:hover {
   transition: 0.4s;
+  padding: 0.8rem 2.2rem;
   background-color: #026e86;
 }
 section.hero-sect .hero .hero-right .btn-row ul li .about {
@@ -147,6 +146,7 @@ section.hero-sect .hero .hero-right .btn-row ul li .about {
 }
 section.hero-sect .hero .hero-right .btn-row ul li .about:hover {
   transition: 0.4s;
+  padding: 0.8rem 2.2rem;
   background-color: #017e1c;
 }
 section.hero-sect .hero .hero-right .btn-row ul li .join {
@@ -154,6 +154,7 @@ section.hero-sect .hero .hero-right .btn-row ul li .join {
 }
 section.hero-sect .hero .hero-right .btn-row ul li .join:hover {
   transition: 0.4s;
+  padding: 0.8rem 2.2rem;
   background-color: #4f3d97;
 }
 
