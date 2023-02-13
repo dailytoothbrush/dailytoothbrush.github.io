@@ -193,7 +193,6 @@ section.hero-sect .hero .hero-right .btn-row ul li .join:hover {
 .work-pic {
   margin-top: 200px;
   display: flex;
-  padding-bottom: 180px;
   width: 100%;
   justify-content: center;
   background-image: url("/static/imgs/vecteezy_grid.jpg");
@@ -204,20 +203,24 @@ section.hero-sect .hero .hero-right .btn-row ul li .join:hover {
 }
 
 .sponsors {
-  transform: translateY(-140px);
   display: flex;
+  background-image: url("/static/imgs/vecteezy_grid.jpg");
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  padding: 50px 0;
+  box-shadow: var(--drop-shadow);
 }
 .sponsors img {
+  margin: auto 50px;
   display: block;
   float: left;
   height: 100px;
 }
 
 .info {
-  transform: translateY(-100px);
   height: 100vh;
 }
 .info .overlay-fog-background {

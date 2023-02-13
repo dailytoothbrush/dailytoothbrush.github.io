@@ -202,7 +202,7 @@
   .work-pic{
     margin-top: 200px;
     display: flex;
-    padding-bottom: 180px;
+    // padding-bottom: 180px;
     width: 100%;
     justify-content: center;
     background-image: url('/static/imgs/vecteezy_grid.jpg');
@@ -212,12 +212,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   }
   .sponsors{
-    transform: translateY(-140px);
+    // transform: translateY(-140px);
     display: flex;
+    background-image: url('/static/imgs/vecteezy_grid.jpg');
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    padding: 50px 0;
+    box-shadow: var(--drop-shadow);
     img{
+      margin: auto 50px;
       display: block;
       float: left;
       height: 100px;
@@ -225,7 +231,7 @@
   }
   
   .info{
-    transform: translateY(-100px);
+    // transform: translateY(-100px);
     height: 100vh;
     .overlay-fog-background{
       height: 100vh;
