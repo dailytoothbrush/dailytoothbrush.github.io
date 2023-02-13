@@ -1,0 +1,36 @@
+#active-page-triangle {
+  animation-name: triangle_spin;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes triangle_spin {
+  0% {
+    transform: translate(50%, -80%) rotate(0deg);
+  }
+  50% {
+    transform: translate(50%, -80%) rotate(360deg);
+  }
+  100% {
+    transform: translate(50%, -80%) rotate(360deg);
+  }
+}
+
+#notice-new {
+  animation-name: new_red_fade;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes new_red_fade {
+  0% {
+    color: #f5a2a2;
+    transform: translate(0px 20px);
+  }
+  50% {
+    color: #d70000;
+    transform: translate(0px 20px);
+  }
+  100% {
+    color: #f1acac;
+    transform: translate(0px 20px);
+  }
+}/*# sourceMappingURL=animations.css.map */
