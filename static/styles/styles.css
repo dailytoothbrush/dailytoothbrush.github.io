@@ -379,6 +379,13 @@ section.hero-sect .hero .hero-right .btn-row ul li .join:hover {
 footer {
   height: 260px;
   background-image: url("/static/imgs/pitt_fabric.png");
+  position: relative;
+}
+footer .dhub-decor {
+  position: absolute;
+  width: 400px;
+  bottom: 12px;
+  left: 12px;
 }
 footer .heading {
   color: #FFFFFF;
@@ -391,12 +398,15 @@ footer .hoverable:hover {
   color: #37C0FB;
   text-decoration: underline;
 }
+footer .placement {
+  transform: translateY(30px);
+}
 footer .container {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 footer .container .mini-nav {
+  margin: 1em;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -416,6 +426,7 @@ footer .container .mini-contact .icon-row img {
   margin: 1em;
 }
 footer .container .mini-involved {
+  margin: 1em 2em;
   display: flex;
   flex-direction: column;
   text-align: left;

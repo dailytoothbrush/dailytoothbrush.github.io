@@ -412,6 +412,14 @@
   footer{
     height: 260px;
     background-image: url('/static/imgs/pitt_fabric.png');
+    position: relative;
+
+    .dhub-decor{
+      position: absolute;
+      width: 400px;
+      bottom: 12px;
+      left: 12px;
+    }
     // tag mods
     .heading{
       color: #FFFFFF;
@@ -424,12 +432,15 @@
       color: #37C0FB;
       text-decoration: underline;
     }
+    .placement{
+      transform: translateY(30px);
+    }
     // --------------
     .container{
-      display: flex;
-      align-items: center;
+      display: flex;  
       justify-content: center;
       .mini-nav{
+        margin: 1em;
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -445,6 +456,7 @@
         align-items: center;
         .icon-row{
           // tag mods
+          
           // -----------
           img{
             height: 48px;
@@ -453,6 +465,7 @@
         }
       }
       .mini-involved{
+        margin: 1em 2em;
         display: flex;
         flex-direction: column;
         text-align: left;
