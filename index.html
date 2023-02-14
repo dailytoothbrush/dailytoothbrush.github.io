@@ -10,7 +10,7 @@
 	<body>
 		<div class="top-gradient"></div>
 		<header>
-			<nav>
+			<nav id="top">
 				<ul>
 					<li class="active">
 						<svg
@@ -76,7 +76,7 @@
 							<li>
 								<a href="#announcements" class="events">Upcoming Events</a>
 							</li>
-							<li><a href="" class="about">About us</a></li>
+							<li><a href="#announcements" class="about">About us</a></li>
 							<li><a href="" class="join">Join</a></li>
 						</ul>
 					</div>
@@ -107,7 +107,8 @@
 			<a href=""><img src="/static/imgs/IEEE_logo.png" alt="IEEE logo" /></a>
 		</div>
 		<section class="info">
-			<!-- <div class="overlay-fog-background"></div> -->
+			<div class="overlay-rain-background"></div>
+			<div class="overlay-fog-background"></div>
 			<div class="box-container">
 				<div class="intro-left">
 					<div class="content">
@@ -144,27 +145,35 @@
 								journey to do so.
 							</p>
 							<div class="contact-pops">
-								<a href="mailto: designhub@pitt.edu" class="mail"
+								<a href="mailto: designhub@pitt.edu" class="mail hoverable"
 									><img
 										src="/static/imgs/contact_logos/mail.svg"
 										alt="mail envelope"
 								/></a>
-								<a href=""
+								<a
+									href="https://twitter.com/PittDesignHub"
+									class="twitter hoverable"
 									><img
 										src="/static/imgs/contact_logos/twitter.svg"
 										alt="twitter logo"
 								/></a>
-								<a href=""
+								<a
+									href="https://www.facebook.com/pittdesignhub/"
+									class="facebook hoverable"
 									><img
 										src="/static/imgs/contact_logos/facebook.svg"
 										alt="facebook logo"
 								/></a>
-								<a href=""
+								<a
+									href="https://www.instagram.com/dhub_pgh/"
+									class="instagram hoverable"
 									><img
 										src="/static/imgs/contact_logos/instagram.svg"
 										alt="instagram logo"
 								/></a>
-								<a href=""
+								<a
+									href="https://www.linkedin.com/company/pitt-designhub/about/"
+									class="linkedin hoverable"
 									><img
 										src="/static/imgs/contact_logos/linkedin.svg"
 										alt="linkedin logo"
@@ -176,7 +185,9 @@
 				<div class="intro-right">
 					<div class="container">
 						<div class="announcements">
-							<div class="heading" id="announcements">Announcements</div>
+							<div class="heading hoverable" id="announcements">
+								Announcements
+							</div>
 							<div class="content">
 								<div class="content-title">
 									<!-- <p id="notice-new">NEW</p> -->
@@ -184,17 +195,17 @@
 								</div>
 								<div class="content-desc">
 									<p>
-										Design Hub is launching a new website soon!Design Hub is
-										launching a new website soon!Design Hub is launching a new
+										Design Hub is launching a new website soon! Design Hub is
+										launching a new website soon! Design Hub is launching a new
 										website soon! Design Hub is launching a new website soon!
-										Design Hub is launching a new website soon!Design Hub is
+										Design Hub is launching a new website soon! Design Hub is
 										launching a new website soon!
 									</p>
 								</div>
 							</div>
 						</div>
 						<div class="up-events">
-							<div class="heading">Upcoming Events</div>
+							<div class="heading hoverable">Upcoming Events</div>
 							<div class="content">
 								<div class="content-title">
 									<!-- <p id="notice-new">WOW!</p> -->
@@ -221,5 +232,74 @@
 				</div>
 			</div>
 		</section>
+		<footer>
+			<div class="container">
+				<div class="mini-nav">
+					<h3 class="heading">Navigation</h3>
+					<ul>
+						<li><a href="/index.html#top" class="link hoverable">Home</a></li>
+						<li>
+							<a href="/static/pages/about.html" class="link hoverable"
+								>About Us</a
+							>
+						</li>
+						<li>
+							<a href="/static/pages/gallery.html" class="link hoverable"
+								>Gallery</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="mini-contact">
+					<div class="icon-row">
+						<!-- imgs should be replaced with actual fa icons for cool hover colors -->
+						<a href=""
+							><img
+								src="/static/imgs/contact_logos/footer_whites/tw.svg"
+								class="twitter logo"
+								alt="twitter logo"
+						/></a>
+						<a href=""
+							><img
+								src="/static/imgs/contact_logos/footer_whites/fb.svg"
+								class="facebook logo"
+								alt="facebook logo"
+						/></a>
+						<a href=""
+							><img
+								src="/static/imgs/contact_logos/footer_whites/ig.svg"
+								class="instagram logo"
+								alt="instagram logo"
+						/></a>
+						<a href=""
+							><img
+								src="/static/imgs/contact_logos/footer_whites/ln.svg"
+								class="linkedin logo"
+								alt="linkedin logo"
+						/></a>
+					</div>
+					<a href="mailto: designhub@pitt.edu" class="link hoverable"
+						>Email: DesignHub@pitt.edu</a
+					>
+				</div>
+				<div class="mini-involved">
+					<h3 class="heading">Get Involved</h3>
+					<ul>
+						<li>
+							<a href="" class="link hoverable">Join Design Hub</a>
+						</li>
+						<li>
+							<a href="" class="link hoverable">Our Events</a>
+						</li>
+						<li>
+							<a href="" class="link hoverable">Our Teams</a>
+						</li>
+						<li>
+							<a href="" class="link hoverable">Sponsorship</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

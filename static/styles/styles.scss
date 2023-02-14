@@ -13,6 +13,7 @@
     --text-blue: #10345E;
     --drop-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
     --soft-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    --hover-timing: 0.25s;
 }
 
 *{
@@ -71,6 +72,7 @@
                 }
                 #active-page-text{
                   color: #10345E;
+                  text-shadow: 2px 2px #a0e2eb46;
                 }
                 a{
                   text-decoration: none;
@@ -245,12 +247,22 @@
   
   .info{
     margin-top: 300px;
+    position: relative;
     // height: 100vh;
-    // background-image: url("/static/imgs/geometric/rain.svg");
-    background-color: #0db47c;
+    // background-color: #0db47c;
+    .overlay-rain-background{
+      height: 100%;
+      width: 100%;
+      z-index: -2;
+      position: absolute;
+      background-image: url("/static/imgs/geometric/rain.svg");
+    }
     .overlay-fog-background{
-      height: 100vh;
-      background: linear-gradient(180deg, #E3EEFF 0%, rgba(219, 255, 222, 0.16) 50%);
+      height: 100%;
+      width: 100%;
+      z-index: -2;
+      position: absolute;
+      background: linear-gradient(180deg, rgba(#E3EEFF,0.7) 0%, rgba(219, 255, 222, 0.56) 50%);
     }
     .box-container{
       display: flex;
@@ -301,6 +313,7 @@
               }
               .btn:hover{
                 padding: 8px 33px;
+                transition: var(--hover-timing);
                 background-color: #023d5f;
               }
             }
@@ -318,6 +331,12 @@
               a{
                 img{
                   width: 48px;
+                }
+              }
+              .hoverable:hover{
+                img{
+                  width: 56px;
+                  transition: var(--hover-timing);
                 }
               }
             }
@@ -370,6 +389,7 @@
             font-weight: bold;
             font-size: 24px;
           }
+          
           .content{
             margin: 0px 50px;
             .content-title{
@@ -384,6 +404,61 @@
               font-weight:300;
             }
           }
+        }
+      }
+    }
+  }
+
+  footer{
+    height: 260px;
+    background-image: url('/static/imgs/pitt_fabric.png');
+    // tag mods
+    .heading{
+      color: #FFFFFF;
+    }
+    .link{
+      text-decoration: none;
+      color: #FDB71C;
+    }
+    .hoverable:hover{
+      color: #37C0FB;
+      text-decoration: underline;
+    }
+    // --------------
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mini-nav{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        ul{
+          list-style: none;
+        }
+      }
+      .mini-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .icon-row{
+          // tag mods
+          // -----------
+          img{
+            height: 48px;
+            margin: 1em;
+          }
+        }
+      }
+      .mini-involved{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        ul{
+          list-style: none;
         }
       }
     }

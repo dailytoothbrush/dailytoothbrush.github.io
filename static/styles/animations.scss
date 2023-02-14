@@ -1,7 +1,10 @@
+// HOVER TRANSITIONS IN STYLES.SCSS FILE!!!!
+
 #active-page-triangle{
     animation-name: triangle_spin;
     animation-duration: 4.5s;
     animation-iteration-count: infinite;
+    
     @keyframes triangle_spin {
         0% {
             transform: translate(50%, -80%) rotate(0deg);
