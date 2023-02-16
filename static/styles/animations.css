@@ -6,12 +6,15 @@
 @keyframes triangle_spin {
   0% {
     transform: translate(50%, -80%) rotate(0deg);
+    fill: #c4c4c4;
   }
   50% {
     transform: translate(50%, -80%) rotate(360deg);
+    fill: #85a6f5;
   }
   100% {
     transform: translate(50%, -80%) rotate(360deg);
+    fill: #c4c4c4;
   }
 }
 

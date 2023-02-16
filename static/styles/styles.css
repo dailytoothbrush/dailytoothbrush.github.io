@@ -54,7 +54,6 @@ header nav ul li {
 }
 header nav ul li #active-page-triangle {
   position: absolute;
-  fill: #D9D9D9;
 }
 header nav ul li #active-page-dots {
   position: absolute;
