@@ -62,7 +62,8 @@
                 margin: 1.4rem 2rem;
                 #active-page-triangle{
                   position: absolute;
-                  fill: #D9D9D9;
+                 
+                  // fill: #D9D9D9;
                   // transform: translate(50%, -80%); //centers triangle relative to nav text // RESOLVED IN ANIMATION.SCSS
                 }
                 #active-page-dots{
