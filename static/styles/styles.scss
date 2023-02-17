@@ -165,7 +165,6 @@
               .join{
                 // background-color: #7A64D3;
                 background-color: #004B76;
-
               }
               .join:hover{
                 transition: 0.4s;
@@ -174,6 +173,12 @@
                 background-color: #023d5f;
               }
             }
+            .dot{
+                // padding: 0.6rem 0.6rem;
+                margin-right: 1rem;
+                // border-radius: 200px;
+                // background-color: #13AAFF;
+              }
           }
         }
       }
@@ -275,7 +280,7 @@
       .intro-left{
         margin: 35px;
         width: 566px;
-        height: 445px;
+        height: 450px;
         background-color: #FFFFFF;
         background: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -333,7 +338,7 @@
               flex-wrap: wrap;
               a{
                 img{
-                  width: 48px;
+                  width: 38px;
                 }
               }
               .hoverable:hover{
