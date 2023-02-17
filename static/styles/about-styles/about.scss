@@ -1,0 +1,114 @@
+section.mission-sect{
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .heading{
+        margin-top: 10em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 36px;
+        }
+        svg{
+            margin-bottom: 2em;
+        }
+        }
+        .desc-mission{
+            width: 50%;
+        }
+        .desc-involved{
+            margin-top: 3em;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 50%;
+            img{
+                width: 40%;
+            }
+            p{
+                margin-left: 3em;
+                width: 50%;
+            }
+        }
+    }
+}
+
+.officer-sect{
+    .container{
+        width: 100%;
+        margin-top: 5em;
+            .heading{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // position: absolute;
+            // left: 25%;
+            h1{
+                font-size: 36px;
+            }
+            svg{
+                path{
+                    stroke: #0099BD;
+                    // stroke: #003cbd;
+                }
+            }
+        }
+        .content{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            .card-container{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                a{
+                    color: #000000;
+                    text-decoration: none;
+                    .card:hover{
+                        transition: .25s;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+                        img{
+                            transition: .25s;
+                            width: 270px;
+                            border-radius: 20px;
+                        }
+                    }
+                    .card{
+                        margin: 1em;
+                        background-color: #ddedff;
+                        padding: 1em;
+                        border-radius: 20px;
+                        h2,h3{
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                        img{
+                            width: 255px;
+                            border-radius: 20px;
+                            // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                            // height: 270px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

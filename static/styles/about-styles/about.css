@@ -1,1 +1,103 @@
-/*# sourceMappingURL=about.css.map */
+section.mission-sect .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.mission-sect .container .heading {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.mission-sect .container .heading h1 {
+  font-size: 36px;
+}
+section.mission-sect .container .heading svg {
+  margin-bottom: 2em;
+}
+section.mission-sect .container .desc-mission {
+  width: 50%;
+}
+section.mission-sect .container .desc-involved {
+  margin-top: 3em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+section.mission-sect .container .desc-involved img {
+  width: 40%;
+}
+section.mission-sect .container .desc-involved p {
+  margin-left: 3em;
+  width: 50%;
+}
+
+.officer-sect .container {
+  width: 100%;
+  margin-top: 5em;
+}
+.officer-sect .container .heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.officer-sect .container .heading h1 {
+  font-size: 36px;
+}
+.officer-sect .container .heading svg path {
+  stroke: #0099BD;
+}
+.officer-sect .container .content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.officer-sect .container .content .card-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.officer-sect .container .content .card-container a {
+  color: #000000;
+  text-decoration: none;
+}
+.officer-sect .container .content .card-container a .card:hover {
+  transition: 0.25s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.officer-sect .container .content .card-container a .card:hover img {
+  transition: 0.25s;
+  width: 270px;
+  border-radius: 20px;
+}
+.officer-sect .container .content .card-container a .card {
+  margin: 1em;
+  background-color: #ddedff;
+  padding: 1em;
+  border-radius: 20px;
+}
+.officer-sect .container .content .card-container a .card h2, .officer-sect .container .content .card-container a .card h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.officer-sect .container .content .card-container a .card img {
+  width: 255px;
+  border-radius: 20px;
+}/*# sourceMappingURL=about.css.map */

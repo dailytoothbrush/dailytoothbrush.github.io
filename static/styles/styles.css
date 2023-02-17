@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("/static/styles/animations.css");
 @import url("about-styles/about.css");
-@import url("events-styles/events.css");
-@import url("gallery-styles/gallery.css");
-@import url("sponsorship-styles/sponsorships.css");
-@import url("teams-styles//teams.css");
 :root {
   --text-dark: #000000;
   --text-blue: #10345E;
@@ -388,7 +384,7 @@ footer {
 }
 footer .dhub-decor {
   position: absolute;
-  width: 400px;
+  width: 250px;
   bottom: 12px;
   left: 12px;
 }
