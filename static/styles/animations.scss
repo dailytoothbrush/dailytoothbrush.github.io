@@ -22,6 +22,46 @@
 }
 
 
+#active-page-triangle.about{
+    animation-name: triangle_spin_about;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    @keyframes triangle_spin_about {
+        0% {
+            transform: translate(60%, -80%) rotate(0deg);
+            fill: #c4c4c4;
+        }
+        50% {
+            transform: translate(60%, -80%) rotate(360deg);
+            fill: #85a6f5;
+        }
+        100%{
+            transform: translate(60%, -80%) rotate(360deg);
+            fill: #c4c4c4;
+        }
+    }
+}
+
+#active-page-triangle.teams{
+    animation-name: triangle_spin_teams;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    @keyframes triangle_spin_teams {
+        0% {
+            transform: translate(70%, -80%) rotate(0deg);
+            fill: #c4c4c4;
+        }
+        50% {
+            transform: translate(70%, -80%) rotate(360deg);
+            fill: #85a6f5;
+        }
+        100%{
+            transform: translate(70%, -80%) rotate(360deg);
+            fill: #c4c4c4;
+        }
+    }
+}
+
 #notice-new{
     animation-name: new_red_fade;
     animation-duration: 1.5s;

@@ -43,6 +43,15 @@
     fill: #629DD2;
     z-index: -2;
 }
+#active-page-dots.about{
+    // transform: translateX(-1px);
+    transform: translate(-2%, 105%);
+}
+
+body{
+    // background: linear-gradient(180deg, rgba(255, 255, 255, 0) 8.12%, #dbfaf0 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 18.12%, #dbfae9 100%);
+}
 
 section.mission-sect{
     .container{
@@ -139,7 +148,9 @@ section.mission-sect{
                     }
                     .card{
                         margin: 1em;
-                        background-color: #ddedff;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                        // background-color: #ddedff;
+                        background-color: #ffffff;
                         padding: 1em;
                         border-radius: 20px;
                         h2,h3{
