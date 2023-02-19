@@ -52,7 +52,7 @@
   transform: translate(-2%, 105%);
 }
 
-body {
+body.about {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 18.12%, #dbfae9 100%);
 }
 
