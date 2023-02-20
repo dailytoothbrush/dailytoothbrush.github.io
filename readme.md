@@ -1,5 +1,10 @@
-# Design Hub Website
+# Design Hub Website - IN PROGRESS :>
 
-Need mq's at 
+## Home
+![homepage showcase](readme-imgs\home.gif)
 
-w < 1066px
+## About
+![]()
+
+## Teams
+![homepage showcase](readme-imgs\teams.gif)
