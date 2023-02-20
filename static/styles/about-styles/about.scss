@@ -143,19 +143,9 @@ section.mission-sect{
                 a{
                     color: #000000;
                     text-decoration: none;
-                    .card:hover{
-                        transition: .25s;
-                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-                        img{
-                            transition: .25s;
-                            width: 280px;
-                            border-radius: 20px;
-                        }
-                    }
                     .card{
                         margin: 1em;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-                        // background-color: #ddedff;
                         background-color: #ffffff;
                         padding: 1em;
                         border-radius: 20px;
@@ -165,10 +155,16 @@ section.mission-sect{
                         }
                         img{
                             width: 255px;
-                            // height: 270px;
                             border-radius: 20px;
-                            // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-                            // height: 270px;
+                        }
+                    }
+                    .card:hover{
+                        transition: .35s;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+                        img{
+                            transition: .25s;
+                            width: 280px;
+                            border-radius: 20px;
                         }
                     }
                 }
