@@ -146,4 +146,31 @@ section.grass-sect .face a:hover {
   transition: 0.4s;
   padding: 0.5rem 1.7rem;
   background: #723801;
+}
+
+section.roots-sect {
+  background: linear-gradient(180deg, #5A4328 0%, #241605 80.21%, #0C0631 100%);
+  display: flex;
+  justify-content: center;
+}
+section.roots-sect .ladder {
+  margin: 10em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.roots-sect .ladder .bone-box {
+  display: flex;
+  flex-direction: row;
+  background: #D9D9D9;
+  border-radius: 15px;
+  margin: 2em;
+  padding: 1rem;
+}
+section.roots-sect .ladder .bone-box .left {
+  max-width: 300px;
+}
+section.roots-sect .ladder .bone-box ol {
+  margin: 0em 1.25em;
 }/*# sourceMappingURL=teams.css.map */
