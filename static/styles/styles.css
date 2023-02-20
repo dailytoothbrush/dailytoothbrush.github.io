@@ -396,9 +396,11 @@ footer .heading {
 }
 footer .link {
   text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
   color: #FDC344;
 }
 footer .hoverable:hover {
+  background-color: rgba(0, 0, 0, 0);
   color: #37C0FB;
   text-decoration: underline;
 }
