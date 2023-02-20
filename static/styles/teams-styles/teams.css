@@ -149,7 +149,7 @@ section.grass-sect .face a:hover {
 }
 
 section.roots-sect {
-  background: linear-gradient(180deg, #5A4328 0%, #241605 80.21%, #0C0631 100%);
+  background: url("/static/imgs/geometric/dirtscratches.svg") repeat, linear-gradient(180deg, #5A4328 0%, #241605 80.21%, #0C0631 100%);
   display: flex;
   justify-content: center;
 }
