@@ -32,6 +32,7 @@ body {
   background: linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
   background: -webkit-linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
   z-index: 100;
+  box-shadow: var(--drop-shadow);
 }
 
 header {
