@@ -156,12 +156,37 @@ section.roots-sect{
         justify-content: center;
         align-items: center;
         .bone-box{
+            position: relative;
             display: flex;
             flex-direction: row;
             background: #D9D9D9;
             border-radius: 15px;
             margin: 2em;
             padding: 1rem;
+            .bone-1.topleft{
+                position: absolute;
+                left: -70px;
+                top: -80px;
+                transform: rotate(-20.37deg);
+            }
+            .bone-2.btmright{
+                position: absolute;
+                right: -70px;
+                bottom: -80px;
+                transform: rotate(-20.37deg);
+            }
+            .bone-3.btmleft{
+                position: absolute;
+                left: -70px;
+                bottom: -80px;
+                transform: rotate(30deg);
+            }
+            .bone-4.btmright{
+                position: absolute;
+                right: -70px;
+                bottom: -80px;
+                transform: rotate(-15deg);
+            }
             .left{
                 max-width: 300px;
             }
