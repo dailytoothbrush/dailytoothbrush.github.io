@@ -66,6 +66,9 @@ section.skyhero-sect .container .heading {
 section.skyhero-sect .container .heading h1 {
   font-size: 40px;
 }
+section.skyhero-sect .container img {
+  width: 525px;
+}
 
 section.bird-sect {
   margin-top: 3rem;
