@@ -94,4 +94,40 @@
   100% {
     transform: translateY(-40px);
   }
+}
+
+section.skyhero-sect .sun-decor {
+  animation-name: sun_spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes sun_spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(-180deg) scale(1);
+  }
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}
+
+section.skyhero-sect .cloud-animate {
+  animation-name: cloud_wiggle;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes cloud_wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
 }/*# sourceMappingURL=animations.css.map */
