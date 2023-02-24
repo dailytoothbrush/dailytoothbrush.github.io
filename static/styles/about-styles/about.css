@@ -170,6 +170,7 @@ section.mission-sect .container .desc-involved p {
 }
 .officer-sect .container .content .card-container a .card img {
   width: 255px;
+  height: 279px;
   border-radius: 20px;
 }
 .officer-sect .container .content .card-container a .card:hover {
@@ -178,7 +179,8 @@ section.mission-sect .container .desc-involved p {
 }
 .officer-sect .container .content .card-container a .card:hover img {
   transition: 0.25s;
-  width: 280px;
+  width: 275px;
+  height: 299px;
   border-radius: 20px;
 }
 
