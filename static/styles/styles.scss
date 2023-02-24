@@ -48,7 +48,7 @@
     background: -moz-linear-gradient(0deg, hsla(183, 98%, 55%, 1) 0%, hsla(214, 100%, 62%, 1) 50%, hsla(141, 100%, 56%, 1) 100%);
     background: -webkit-linear-gradient(0deg, hsla(183, 98%, 55%, 1) 0%, hsla(214, 100%, 62%, 1) 50%, hsla(141, 100%, 56%, 1) 100%);
     z-index: 100; // grad line always on top 
-    box-shadow: var(--drop-shadow);
+    box-shadow: var(--soft-shadow);
     
   }
   
