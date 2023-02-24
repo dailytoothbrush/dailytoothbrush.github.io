@@ -425,13 +425,14 @@
     }
   }
 
+  footer.homepage{
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+  }
   footer{
     // height: 260px;
     height: auto;
     background-image: url('/static/imgs/pitt_fabric.png');
     position: relative;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
-
     .dhub-decor{
       position: absolute;
       width: 250px;
