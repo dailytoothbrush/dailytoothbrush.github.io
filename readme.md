@@ -1,10 +1,10 @@
 # Design Hub Website - IN PROGRESS :>
 
 ## Home
-![homepage showcase](readme-imgs\home.gif)
+<img src="readme-imgs\home.gif" alt="scrolling through the homepage">
 
 ## About
 ![]()
 
 ## Teams
-![homepage showcase](readme-imgs\teams.gif)
+<img src="readme-imgs\teams.gif" alt="scrolling through the teams page">
