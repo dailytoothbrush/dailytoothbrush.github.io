@@ -174,9 +174,10 @@ section.mission-sect .container .desc-involved p {
   border-radius: 20px;
 }
 .officer-sect .container .content .card-container .card .contacts {
+  max-width: 255px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: start;
   border-top: 3px dotted rgb(100, 100, 100);
