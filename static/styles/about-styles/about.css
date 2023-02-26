@@ -233,6 +233,9 @@ section.mission-sect .container .desc-involved p {
   text-decoration: underline;
   color: rgb(0, 90, 224);
 }
+.officer-sect .container .content .card-container .card .contacts .too-long {
+  font-size: 0.9em;
+}
 .officer-sect .container .content .card-container .card:hover {
   transition: 0.35s;
   box-shadow: 0px 0px 8px 4px rgba(0, 90, 224, 0.459);
