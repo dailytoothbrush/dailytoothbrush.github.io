@@ -28,9 +28,9 @@ body {
   width: 100%;
   height: 7px;
   position: fixed;
-  background: hsl(183deg, 98%, 55%);
-  background: linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
-  background: -webkit-linear-gradient(0deg, hsl(183deg, 98%, 55%) 0%, hsl(214deg, 100%, 62%) 50%, hsl(141deg, 100%, 56%) 100%);
+  background: hsl(183, 98%, 55%);
+  background: linear-gradient(0deg, hsl(183, 98%, 55%) 0%, hsl(214, 100%, 62%) 50%, hsl(141, 100%, 56%) 100%);
+  background: -webkit-linear-gradient(0deg, hsl(183, 98%, 55%) 0%, hsl(214, 100%, 62%) 50%, hsl(141, 100%, 56%) 100%);
   z-index: 100;
   box-shadow: var(--soft-shadow);
 }

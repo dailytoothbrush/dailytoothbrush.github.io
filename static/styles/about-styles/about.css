@@ -157,27 +157,71 @@ section.mission-sect .container .desc-involved p {
   margin: 1em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
-  padding: 1em;
+  padding: 1em 1em 0.7em 1em;
   border-radius: 20px;
 }
-.officer-sect .container .content .card-container .card h2, .officer-sect .container .content .card-container .card h3 {
+.officer-sect .container .content .card-container .card .name {
+  font-size: 24px;
+}
+.officer-sect .container .content .card-container .card .role {
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 6px;
 }
-.officer-sect .container .content .card-container .card img {
+.officer-sect .container .content .card-container .card .picture {
   width: 255px;
   height: 279px;
   border-radius: 20px;
 }
+.officer-sect .container .content .card-container .card .contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  border-top: 3px dotted rgb(100, 100, 100);
+  margin-top: 2px;
+}
+.officer-sect .container .content .card-container .card .contacts .contact {
+  text-decoration: none;
+  color: black;
+}
+.officer-sect .container .content .card-container .card .contacts .contact i {
+  font-size: 32px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+.officer-sect .container .content .card-container .card .contacts .contact i:hover {
+  transition: 0.25s;
+  color: rgb(0, 90, 224);
+  border-bottom: 1px groove rgb(0, 90, 224);
+}
+.officer-sect .container .content .card-container .card .contacts .email {
+  margin-top: 8px;
+  margin-right: 16px;
+  text-decoration: none;
+  color: black;
+}
+.officer-sect .container .content .card-container .card .contacts .email:hover {
+  transition: 0.25s;
+  text-decoration: underline;
+  color: rgb(0, 90, 224);
+}
 .officer-sect .container .content .card-container .card:hover {
   transition: 0.35s;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 8px 4px rgba(0, 90, 224, 0.459);
 }
-.officer-sect .container .content .card-container .card:hover img {
-  transition: 0.25s;
-  width: 275px;
-  height: 299px;
-  border-radius: 20px;
+.officer-sect .container .content .card-container .card:hover .contacts {
+  transition: 0.15s;
+  border-top: 3px dotted rgb(115, 170, 252);
+}
+.officer-sect .container .content .card-container .card:hover .contacts i {
+  transition: 0.85s;
+  color: rgb(4, 39, 92);
+}
+.officer-sect .container .content .card-container .card:hover .contacts .email {
+  transition: 0.85s;
+  color: rgb(4, 39, 92);
 }
 
 .bottom {
