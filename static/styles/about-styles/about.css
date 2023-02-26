@@ -79,6 +79,11 @@ section.mission-sect .container .heading h1 {
 section.mission-sect .container .heading svg {
   margin-bottom: 2em;
 }
+@media screen and (max-width: 470px) {
+  section.mission-sect .container .heading {
+    margin-top: 14em;
+  }
+}
 section.mission-sect .container .desc-mission {
   width: 50%;
 }

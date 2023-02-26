@@ -70,12 +70,18 @@ section.mission-sect{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h1{
-            font-size: 36px;
+            h1{
+                font-size: 36px;
+            }
+            svg{
+                margin-bottom: 2em;
+            }
         }
-        svg{
-            margin-bottom: 2em;
-        }
+
+        @media screen and (max-width:470px) {
+            .heading{
+                margin-top: 14em;
+            }
         }
         .desc-mission{
             width: 50%;
