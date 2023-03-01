@@ -79,6 +79,11 @@ section.mission-sect .container .heading h1 {
 section.mission-sect .container .heading svg {
   margin-bottom: 2em;
 }
+@media screen and (max-width: 470px) {
+  section.mission-sect .container .heading {
+    margin-top: 14em;
+  }
+}
 section.mission-sect .container .desc-mission {
   width: 50%;
 }
@@ -91,7 +96,6 @@ section.mission-sect .container .desc-involved {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-  max-height: 300px;
   background-color: #DAFFCD;
   padding: 2em 0;
   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
@@ -102,6 +106,27 @@ section.mission-sect .container .desc-involved img {
 section.mission-sect .container .desc-involved p {
   margin-left: 3em;
   width: 40%;
+}
+@media screen and (max-width: 1023px) {
+  section.mission-sect .container .desc-involved {
+    margin-top: 6em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #DAFFCD;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+  }
+  section.mission-sect .container .desc-involved img {
+    display: none;
+  }
+  section.mission-sect .container .desc-involved p {
+    margin: 0;
+    width: 50%;
+  }
 }
 
 .officer-sect {
@@ -157,27 +182,75 @@ section.mission-sect .container .desc-involved p {
   margin: 1em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
-  padding: 1em;
+  padding: 1em 1em 0.7em 1em;
   border-radius: 20px;
 }
-.officer-sect .container .content .card-container .card h2, .officer-sect .container .content .card-container .card h3 {
+.officer-sect .container .content .card-container .card .name {
+  font-size: 24px;
+}
+.officer-sect .container .content .card-container .card .role {
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 6px;
 }
-.officer-sect .container .content .card-container .card img {
+.officer-sect .container .content .card-container .card .picture {
   width: 255px;
   height: 279px;
   border-radius: 20px;
 }
+.officer-sect .container .content .card-container .card .contacts {
+  max-width: 255px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: start;
+  border-top: 3px dotted rgb(100, 100, 100);
+  margin-top: 2px;
+}
+.officer-sect .container .content .card-container .card .contacts .contact {
+  text-decoration: none;
+  color: black;
+}
+.officer-sect .container .content .card-container .card .contacts .contact i {
+  font-size: 32px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+.officer-sect .container .content .card-container .card .contacts .contact i:hover {
+  transition: 0.25s;
+  color: rgb(0, 90, 224);
+  border-bottom: 1px groove rgb(0, 90, 224);
+}
+.officer-sect .container .content .card-container .card .contacts .email {
+  margin-top: 8px;
+  margin-right: 16px;
+  text-decoration: none;
+  color: black;
+}
+.officer-sect .container .content .card-container .card .contacts .email:hover {
+  transition: 0.25s;
+  text-decoration: underline;
+  color: rgb(0, 90, 224);
+}
+.officer-sect .container .content .card-container .card .contacts .too-long {
+  font-size: 0.9em;
+}
 .officer-sect .container .content .card-container .card:hover {
   transition: 0.35s;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 8px 4px rgba(0, 90, 224, 0.459);
 }
-.officer-sect .container .content .card-container .card:hover img {
-  transition: 0.25s;
-  width: 275px;
-  height: 299px;
-  border-radius: 20px;
+.officer-sect .container .content .card-container .card:hover .contacts {
+  transition: 0.15s;
+  border-top: 3px dotted rgb(115, 170, 252);
+}
+.officer-sect .container .content .card-container .card:hover .contacts i {
+  transition: 0.85s;
+  color: rgb(4, 39, 92);
+}
+.officer-sect .container .content .card-container .card:hover .contacts .email {
+  transition: 0.85s;
+  color: rgb(4, 39, 92);
 }
 
 .bottom {
