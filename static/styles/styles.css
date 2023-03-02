@@ -44,6 +44,7 @@ header {
 }
 header nav ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -95,13 +96,13 @@ section.hero-sect .hero {
   display: flex;
 }
 section.hero-sect .hero .logo {
-  height: 350px;
+  width: 20vw;
   margin: 20px;
   transform: translateY(-25px);
   filter: drop-shadow(var(--drop-shadow));
 }
 section.hero-sect .hero .hero-right .title {
-  height: 125px;
+  width: 55vw;
   filter: drop-shadow(var(--drop-shadow));
 }
 section.hero-sect .hero .hero-right .btn-row {
@@ -109,15 +110,15 @@ section.hero-sect .hero .hero-right .btn-row {
 }
 section.hero-sect .hero .hero-right .btn-row ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: left;
   align-items: center;
   list-style: none;
+  width: 55vw;
 }
 section.hero-sect .hero .hero-right .btn-row ul li a {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: bold;
   padding: 0.6rem 2rem;
   margin-right: 1rem;
@@ -187,7 +188,6 @@ section.hero-sect .hero .hero-right .btn-row ul .dot {
   font-family: "Coming Soon", cursive;
   font-weight: 700;
   font-size: 2em;
-  line-height: 0.5em;
   stroke-width: 1px;
   -webkit-text-stroke: #000000 1px;
 }
@@ -229,7 +229,7 @@ section.hero-sect .hero .hero-right .btn-row ul .dot {
   margin: 50px 50px;
   display: block;
   float: left;
-  height: 100px;
+  width: 20em;
 }
 
 .info {
@@ -252,13 +252,15 @@ section.hero-sect .hero .hero-right .btn-row ul .dot {
 }
 .info .box-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 .info .box-container .intro-left {
   margin: 35px;
-  width: 566px;
-  height: 450px;
+  display: flex;
+  width: 35em;
+  height: 29em;
   background-color: #FFFFFF;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
